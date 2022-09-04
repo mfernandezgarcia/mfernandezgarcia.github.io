@@ -5,8 +5,11 @@ module.exports = {
     extend: {
       colors: {
         cyan: colors.cyan,
-      }
+        rose: colors.rose,
+        sky: colors.sky,
+      },
     },
+
   },
   plugins: [],
 }
