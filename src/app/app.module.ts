@@ -10,6 +10,7 @@ import { AboutMeComponent } from './features/about-me/about-me.component';
 import { HabilitiesComponent } from './features/habilities/habilities.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { FooterComponent } from './layouts/footer/footer.component';
+import { CertificatesComponent } from './features/certificates/certificates.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './layouts/footer/footer.component';
     AboutMeComponent,
     HabilitiesComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    CertificatesComponent
   ],
   imports: [
     BrowserModule,
