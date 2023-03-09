@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll(e) {
+    const element = document.getElementById('scroll_down');
+
+    if (window.pageYOffset > 100) {
+      element.className = element.className.replace(/absolute/, 'hidden')
+    } else {
+      element.className = element.className.replace(/hidden/, 'absolute')
+    }
+  }
 }

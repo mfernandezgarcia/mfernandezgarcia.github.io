@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-me.component.sass']
 })
 export class AboutMeComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit(): void {

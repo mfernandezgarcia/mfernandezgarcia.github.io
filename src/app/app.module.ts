@@ -26,7 +26,7 @@ import { CertificatesComponent } from './features/certificates/certificates.comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
